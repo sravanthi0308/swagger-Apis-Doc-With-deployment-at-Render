@@ -4,8 +4,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - MONGODB_URI=mongodb+srv://sravanthidasyam0_db_user:pmfNfPjYbxh6UV8N@cluster0.et7dlqh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-      - JWT_SECRET=supersecretkey
+      -
     depends_on:
       - mongo
   mongo:
